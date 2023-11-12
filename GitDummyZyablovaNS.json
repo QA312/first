@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "2780d47a-112d-49c5-915f-0b7627bc0074",
+		"name": "GetDummyZyablovaNS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26053186"
+	},
+	"item": [
+		{
+			"name": "Get list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
