@@ -1,0 +1,612 @@
+{
+	"info": {
+		"_postman_id": "ee7932e0-a107-4889-b75e-b0acf8231adc",
+		"name": "Git-Dummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25068616"
+	},
+	"item": [
+		{
+			"name": "Git-List",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "6550f506d0bb1d08440bdf63",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Git-List",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dummyapi.io/data/v1/user",
+							"protocol": "https",
+							"host": [
+								"dummyapi",
+								"io"
+							],
+							"path": [
+								"data",
+								"v1",
+								"user"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3081"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"c09-IyHXqmGfHKxjXELgipmaVqxDqSM\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "7sqf0capj9xg"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31556926"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "6cf97a7de144c23bba3af3273c71a4ff"
+						},
+						{
+							"key": "X-Country-Code",
+							"value": "RU"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Nov 2023 15:55:13 GMT"
+						},
+						{
+							"key": "X-Served-By",
+							"value": "cache-fra-eddf8230075-FRA"
+						},
+						{
+							"key": "X-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "X-Cache-Hits",
+							"value": "0"
+						},
+						{
+							"key": "X-Timer",
+							"value": "S1699804513.196355,VS0,VE177"
+						},
+						{
+							"key": "Vary",
+							"value": "cookie,need-authorization, x-fh-requested-host, accept-encoding"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": \"60d0fe4f5311236168a109ca\",\n            \"title\": \"ms\",\n            \"firstName\": \"Sara\",\n            \"lastName\": \"Andersen\",\n            \"picture\": \"https://randomuser.me/api/portraits/women/58.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109cb\",\n            \"title\": \"miss\",\n            \"firstName\": \"Edita\",\n            \"lastName\": \"Vestering\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/89.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109cc\",\n            \"title\": \"ms\",\n            \"firstName\": \"Adina\",\n            \"lastName\": \"Barbosa\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/28.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109cd\",\n            \"title\": \"mr\",\n            \"firstName\": \"Roberto\",\n            \"lastName\": \"Vega\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/25.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109ce\",\n            \"title\": \"mr\",\n            \"firstName\": \"Rudi\",\n            \"lastName\": \"Droste\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/83.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109cf\",\n            \"title\": \"mrs\",\n            \"firstName\": \"Carolina\",\n            \"lastName\": \"Lima\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/5.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d0\",\n            \"title\": \"mr\",\n            \"firstName\": \"Emre\",\n            \"lastName\": \"Asikoglu\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/23.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d1\",\n            \"title\": \"mr\",\n            \"firstName\": \"Kent\",\n            \"lastName\": \"Brewer\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/52.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d2\",\n            \"title\": \"mr\",\n            \"firstName\": \"Evan\",\n            \"lastName\": \"Carlson\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/80.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d3\",\n            \"title\": \"mr\",\n            \"firstName\": \"Friedrich-Karl\",\n            \"lastName\": \"Brand\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/7.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d4\",\n            \"title\": \"mr\",\n            \"firstName\": \"Valentin\",\n            \"lastName\": \"Ortega\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/3.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d5\",\n            \"title\": \"mrs\",\n            \"firstName\": \"Sibylle\",\n            \"lastName\": \"Leibold\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/89.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d6\",\n            \"title\": \"mrs\",\n            \"firstName\": \"Elisa\",\n            \"lastName\": \"Lorenzo\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/89.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d7\",\n            \"title\": \"mr\",\n            \"firstName\": \"Leevi\",\n            \"lastName\": \"Savela\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/67.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d8\",\n            \"title\": \"mrs\",\n            \"firstName\": \"Karoline\",\n            \"lastName\": \"Sviggum\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/61.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109d9\",\n            \"title\": \"ms\",\n            \"firstName\": \"Nuria\",\n            \"lastName\": \"Leon\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/93.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109da\",\n            \"title\": \"mr\",\n            \"firstName\": \"Lance\",\n            \"lastName\": \"Foster\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/13.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109db\",\n            \"title\": \"miss\",\n            \"firstName\": \"Naomi\",\n            \"lastName\": \"Rodrigues\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/women/39.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109dc\",\n            \"title\": \"mr\",\n            \"firstName\": \"Evan\",\n            \"lastName\": \"Roux\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/59.jpg\"\n        },\n        {\n            \"id\": \"60d0fe4f5311236168a109dd\",\n            \"title\": \"mr\",\n            \"firstName\": \"Miguel\",\n            \"lastName\": \"Lima\",\n            \"picture\": \"https://randomuser.me/api/portraits/med/men/31.jpg\"\n        }\n    ],\n    \"total\": 99,\n    \"page\": 0,\n    \"limit\": 20\n}"
+				}
+			]
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "6550f506d0bb1d08440bdf63",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Maxim\",\r\n    \"lastName\": \"Golovin\",\r\n    \"email\": \"legem1306@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Git-List Copy",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Maxim\",\r\n    \"lastName\": \"Golovin\",\r\n    \"email\": \"legem1306@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dummyapi.io/data/v1/user/create",
+							"protocol": "https",
+							"host": [
+								"dummyapi",
+								"io"
+							],
+							"path": [
+								"data",
+								"v1",
+								"user",
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Length",
+							"value": "187"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"bb-dFYVnnMr4JqdBpnMlXyE4ratXMk\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "7sqfor4bhpof"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31556926"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "ed5ea18fbf62f2f4853d0d5478465b93"
+						},
+						{
+							"key": "X-Country-Code",
+							"value": "RU"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Nov 2023 16:02:05 GMT"
+						},
+						{
+							"key": "X-Served-By",
+							"value": "cache-fra-eddf8230075-FRA"
+						},
+						{
+							"key": "X-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "X-Cache-Hits",
+							"value": "0"
+						},
+						{
+							"key": "X-Timer",
+							"value": "S1699804925.949186,VS0,VE162"
+						},
+						{
+							"key": "Vary",
+							"value": "cookie,need-authorization, x-fh-requested-host, accept-encoding"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6550f6fd27358e6fc0ce9f17\",\n    \"firstName\": \"Maxim\",\n    \"lastName\": \"Golovin\",\n    \"email\": \"legem1306@gmail.com\",\n    \"registerDate\": \"2023-11-12T16:02:05.037Z\",\n    \"updatedDate\": \"2023-11-12T16:02:05.037Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "6550f506d0bb1d08440bdf63",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"Katy\",\r\n    \"lastname\": \"Golovin\",\r\n    \"gender\": \"female\",\r\n    \"email\": \"legem1306@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/6550f6fd27358e6fc0ce9f17",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"6550f6fd27358e6fc0ce9f17"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create User Copy",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstname\": \"Katy\",\r\n    \"lastname\": \"Golovin\",\r\n    \"gender\": \"female\",\r\n    \"email\": \"legem1306@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dummyapi.io/data/v1/user/6550f6fd27358e6fc0ce9f17",
+							"protocol": "https",
+							"host": [
+								"dummyapi",
+								"io"
+							],
+							"path": [
+								"data",
+								"v1",
+								"user",
+								"6550f6fd27358e6fc0ce9f17"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Length",
+							"value": "205"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"cd-vxpRzN0FlI/VwFnVuID7jVNZjrg\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "7sqf2ptw6ncn"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31556926"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "04202c193bcc1e173586355c9df4bd8e"
+						},
+						{
+							"key": "X-Country-Code",
+							"value": "RU"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Nov 2023 16:04:00 GMT"
+						},
+						{
+							"key": "X-Served-By",
+							"value": "cache-fra-eddf8230075-FRA"
+						},
+						{
+							"key": "X-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "X-Cache-Hits",
+							"value": "0"
+						},
+						{
+							"key": "X-Timer",
+							"value": "S1699805040.276106,VS0,VE215"
+						},
+						{
+							"key": "Vary",
+							"value": "cookie,need-authorization, x-fh-requested-host, accept-encoding"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6550f6fd27358e6fc0ce9f17\",\n    \"firstName\": \"Maxim\",\n    \"lastName\": \"Golovin\",\n    \"gender\": \"female\",\n    \"email\": \"legem1306@gmail.com\",\n    \"registerDate\": \"2023-11-12T16:02:05.037Z\",\n    \"updatedDate\": \"2023-11-12T16:04:00.418Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update User Copy",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "6550f506d0bb1d08440bdf63",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/6550f6fd27358e6fc0ce9f17",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"6550f6fd27358e6fc0ce9f17"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update User Copy",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://dummyapi.io/data/v1/user/6550f6fd27358e6fc0ce9f17",
+							"protocol": "https",
+							"host": [
+								"dummyapi",
+								"io"
+							],
+							"path": [
+								"data",
+								"v1",
+								"user",
+								"6550f6fd27358e6fc0ce9f17"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Length",
+							"value": "33"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"21-hNW80aMDkN3c8719NfHOoSbEFzg\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "7sqf1rozt1ta"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31556926"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "9ddf1bf77612b86bc154caca67dfef07"
+						},
+						{
+							"key": "X-Country-Code",
+							"value": "RU"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Nov 2023 16:04:28 GMT"
+						},
+						{
+							"key": "X-Served-By",
+							"value": "cache-fra-eddf8230075-FRA"
+						},
+						{
+							"key": "X-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "X-Cache-Hits",
+							"value": "0"
+						},
+						{
+							"key": "X-Timer",
+							"value": "S1699805068.862139,VS0,VE221"
+						},
+						{
+							"key": "Vary",
+							"value": "cookie,need-authorization, x-fh-requested-host, accept-encoding"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6550f6fd27358e6fc0ce9f17\"\n}"
+				}
+			]
+		}
+	]
+}
