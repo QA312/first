@@ -9,6 +9,21 @@
 		{
 			"name": "GetList",
 			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "6550f45fd0bb1d4c3e0bdf57",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -22,6 +37,258 @@
 						"data",
 						"v1",
 						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "6550f45fd0bb1d4c3e0bdf57",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"firstName\": \"Sfrty\",\r\n    \"lastName\": \"Mhyj\",\r\n    \"email\": \"1rytu23321@mail.ru\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetList Copy",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"firstName\": \"Sfrty\",\r\n    \"lastName\": \"Mhyj\",\r\n    \"email\": \"1rytu23321@mail.ru\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dummyapi.io/data/v1/user/create",
+							"protocol": "https",
+							"host": [
+								"dummyapi",
+								"io"
+							],
+							"path": [
+								"data",
+								"v1",
+								"user",
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Length",
+							"value": "183"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"b7-uVwrkkmXZB/oxkHOJHqAWMlGvq8\""
+						},
+						{
+							"key": "Function-Execution-Id",
+							"value": "7sqfpex0knkh"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31556926"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "8e3e40d18ad3187210446579a0584d56;o=1"
+						},
+						{
+							"key": "X-Country-Code",
+							"value": "RU"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Nov 2023 16:01:52 GMT"
+						},
+						{
+							"key": "X-Served-By",
+							"value": "cache-bma1668-BMA"
+						},
+						{
+							"key": "X-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "X-Cache-Hits",
+							"value": "0"
+						},
+						{
+							"key": "X-Timer",
+							"value": "S1699804913.706459,VS0,VE178"
+						},
+						{
+							"key": "Vary",
+							"value": "cookie,need-authorization, x-fh-requested-host, accept-encoding"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6550f6f027358e0477ce9f0d\",\n    \"firstName\": \"Sfrty\",\n    \"lastName\": \"Mhyj\",\n    \"email\": \"1rytu23321@mail.ru\",\n    \"registerDate\": \"2023-11-12T16:01:52.807Z\",\n    \"updatedDate\": \"2023-11-12T16:01:52.807Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "6550f45fd0bb1d4c3e0bdf57",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"firstName\": \"Sty\",\r\n    \"lastName\": \"Mj\",\r\n    \"email\": \"1rytu23321@mail.ru\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/6550f6f027358e0477ce9f0d",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"6550f6f027358e0477ce9f0d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "6550f45fd0bb1d4c3e0bdf57",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"firstName\": \"Sty\",\r\n    \"lastName\": \"Mj\",\r\n    \"email\": \"1rytu23321@mail.ru\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/6550f6f027358e0477ce9f0d",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"6550f6f027358e0477ce9f0d"
 					]
 				}
 			},
