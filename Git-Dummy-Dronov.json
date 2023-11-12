@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "8dec2d45-f528-4e49-abbf-7e9b0feea43f",
+		"name": "Git-Dummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25068629"
+	},
+	"item": [
+		{
+			"name": "get list",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
