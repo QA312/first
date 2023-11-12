@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "ee7932e0-a107-4889-b75e-b0acf8231adc",
+		"name": "Git-Dummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25068616"
+	},
+	"item": [
+		{
+			"name": "Git-List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
