@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "9832d432-381a-4118-ad08-094a28d1fd2b",
+		"name": "GitDymmiSorokin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25068660"
+	},
+	"item": [
+		{
+			"name": "запрос",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
